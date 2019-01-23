@@ -32,7 +32,7 @@ namespace WPF_InitialCourse_Exercise
                     GuessTheNumber.Guess();
                     break;
                 case 5:
-                   
+                    TheHigher.GetHigher();
 
                     break;
                 default:
