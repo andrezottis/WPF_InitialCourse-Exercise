@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sessao 5 aula 49\Classes\Divisible.cs" />
+    <Compile Include="Sessao 5 aula 49\Classes\Factorial.cs" />
     <Compile Include="Sessao 5 aula 49\Classes\InfiniteSUM.cs" />
   </ItemGroup>
   <ItemGroup>

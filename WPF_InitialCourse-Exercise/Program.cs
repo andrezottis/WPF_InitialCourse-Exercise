@@ -24,7 +24,7 @@ namespace WPF_InitialCourse_Exercise
                     InfiniteSUM.AskSum();
                     break;
                 case 3:
-
+                    Factorial.NumberFactorial();
                     break;
                 default:
                     break;
