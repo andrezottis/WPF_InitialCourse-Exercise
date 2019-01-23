@@ -13,7 +13,9 @@ namespace WPF_InitialCourse_Exercise
             Console.WriteLine("type the number to the exercise: \n" +
                 "1. Count divisibles \n" +
                 "2. Infinite SUM \n" +
-                "3. Factoration");
+                "3. Factoration \n" +
+                "4. Guess the Number \n" +
+                "5. The higher number");
             int value = int.Parse(Console.ReadLine());
             switch (value)
             {
@@ -25,6 +27,13 @@ namespace WPF_InitialCourse_Exercise
                     break;
                 case 3:
                     Factorial.NumberFactorial();
+                    break;
+                case 4:
+                    GuessTheNumber.Guess();
+                    break;
+                case 5:
+                   
+
                     break;
                 default:
                     break;
