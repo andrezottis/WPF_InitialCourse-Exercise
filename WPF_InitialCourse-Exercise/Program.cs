@@ -21,9 +21,8 @@ namespace WPF_InitialCourse_Exercise
                     Divisible.CheckDivisible();
                     break;
                 case 2:
-
+                    InfiniteSUM.AskSum();
                     break;
-
                 case 3:
 
                     break;
