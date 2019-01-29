@@ -19,21 +19,26 @@ namespace WPF_InitialCourse_Exercise
             int value = int.Parse(Console.ReadLine());
             switch (value)
             {
-                case 1:
-                    Divisible.CheckDivisible();
-                    break;
-                case 2:
-                    InfiniteSUM.AskSum();
-                    break;
-                case 3:
-                    Factorial.NumberFactorial();
-                    break;
-                case 4:
-                    GuessTheNumber.Guess();
-                    break;
-                case 5:
-                    TheHigher.GetHigher();
+                //>>>Sessao 5 aula 49
+                //case 1:
+                //    Divisible.CheckDivisible();
+                //    break;
+                //case 2:
+                //    InfiniteSUM.AskSum();
+                //    break;
+                //case 3:
+                //    Factorial.NumberFactorial();
+                //    break;
+                //case 4:
+                //    GuessTheNumber.Guess();
+                //    break;
+                //case 5:
+                //    TheHigher.GetHigher();
 
+                //    break;
+
+                //>>>>Sesao 6 aula 56
+                case 1:
                     break;
                 default:
                     break;
