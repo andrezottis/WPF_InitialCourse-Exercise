@@ -10,12 +10,22 @@ namespace WPF_InitialCourse_Exercise
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("type the number to the exercise: \n" +
+            //    "1. Count divisibles \n" +
+            //    "2. Infinite SUM \n" +
+            //    "3. Factoration \n" +
+            //    "4. Guess the Number \n" +
+            //    "5. The higher number");
+
+            //>>>>Sesao 6 aula 56
             Console.WriteLine("type the number to the exercise: \n" +
-                "1. Count divisibles \n" +
+                "1. Reverse name \n" +
                 "2. Infinite SUM \n" +
                 "3. Factoration \n" +
                 "4. Guess the Number \n" +
                 "5. The higher number");
+
+
             int value = int.Parse(Console.ReadLine());
             switch (value)
             {
@@ -39,6 +49,10 @@ namespace WPF_InitialCourse_Exercise
 
                 //>>>>Sesao 6 aula 56
                 case 1:
+                    NameReverse.reverseName();
+                    break;
+
+                case 2:
                     break;
                 default:
                     break;

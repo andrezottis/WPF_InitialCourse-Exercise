@@ -50,12 +50,11 @@
     <Compile Include="Sessao 5 aula 49\Classes\GuessTheNumber.cs" />
     <Compile Include="Sessao 5 aula 49\Classes\InfiniteSUM.cs" />
     <Compile Include="Sessao 5 aula 49\Classes\TheHigher.cs" />
+    <Compile Include="Sessao 6 aula 56\Classes\NameReverse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Sessao 6 aula 56\Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
