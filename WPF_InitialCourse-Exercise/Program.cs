@@ -20,7 +20,7 @@ namespace WPF_InitialCourse_Exercise
             //>>>>Sesao 6 aula 56
             Console.WriteLine("type the number to the exercise: \n" +
                 "1. Reverse name \n" +
-                "2. Infinite SUM \n" +
+                "2. Facebook Like \n" +
                 "3. Factoration \n" +
                 "4. Guess the Number \n" +
                 "5. The higher number");
@@ -53,6 +53,7 @@ namespace WPF_InitialCourse_Exercise
                     break;
 
                 case 2:
+                    FacebookLike.contarLikes();
                     break;
                 default:
                     break;
