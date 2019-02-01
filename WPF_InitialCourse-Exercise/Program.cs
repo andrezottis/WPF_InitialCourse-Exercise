@@ -63,7 +63,9 @@ namespace WPF_InitialCourse_Exercise
                 case 4:
                     ListUnique_.UniqueNumbers();
                     break;
-
+                case 5:
+                    listcomma.GetValues();
+                    break;
                 default:
                     break;
             }

@@ -52,6 +52,7 @@
     <Compile Include="Sessao 5 aula 49\Classes\TheHigher.cs" />
     <Compile Include="Sessao 6 aula 56\Classes\AskFiveNumbers.cs" />
     <Compile Include="Sessao 6 aula 56\Classes\FacebookLike.cs" />
+    <Compile Include="Sessao 6 aula 56\Classes\listcomma.cs" />
     <Compile Include="Sessao 6 aula 56\Classes\ListUnique].cs" />
     <Compile Include="Sessao 6 aula 56\Classes\NameReverse.cs" />
   </ItemGroup>
