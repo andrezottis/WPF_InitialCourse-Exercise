@@ -21,8 +21,8 @@ namespace WPF_InitialCourse_Exercise
             Console.WriteLine("type the number to the exercise: \n" +
                 "1. Reverse name \n" +
                 "2. Facebook Like \n" +
-                "3. Factoration \n" +
-                "4. Guess the Number \n" +
+                "3. Ask 5 numbers \n" +
+                "4. List of Unique Numbers \n" +
                 "5. The higher number");
 
 
@@ -55,6 +55,14 @@ namespace WPF_InitialCourse_Exercise
                 case 2:
                     FacebookLike.contarLikes();
                     break;
+
+                case 3:
+                    AskFiveNumbers.FiveNumbers();
+                    break;
+
+                case 4:
+                    break;
+
                 default:
                     break;
             }
