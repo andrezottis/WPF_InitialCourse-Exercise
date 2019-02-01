@@ -61,6 +61,7 @@ namespace WPF_InitialCourse_Exercise
                     break;
 
                 case 4:
+                    ListUnique_.UniqueNumbers();
                     break;
 
                 default:
