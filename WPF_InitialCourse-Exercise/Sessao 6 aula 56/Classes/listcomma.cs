@@ -15,30 +15,28 @@ namespace WPF_InitialCourse_Exercise
             string numbers = Console.ReadLine();
             numberlist = numbers.Split(',').Select(int.Parse).ToList();
 
-                int a = numberlist.Min();
-                int b = numberlist.Max();
-                int c =numberlist.Count();
-                
-            foreach (var item in numberlist)
-                {
-                    if (item == a)
-                {
-                    break;
-                }
-                else if ( c > item)
-                    {
-                    c = item;
-                    } else if (b > c)
-                    {
-                        b = c;
-                    }
-                    else if (a > b)
-                    {
-                        a = b;
-                    }
-                }
+            int a = numberlist.Min();
+            int b = numberlist.Max();
+            int c = numberlist.Max();
 
-            Console.WriteLine("1 - {0}" ,a);
+            foreach (var item in numberlist)
+            {
+                if (b > item && item != a)
+                {
+                    b = item;
+                }
+            }
+            foreach (var item in numberlist)
+            {
+
+                if (c > item && c > b && item != a && item !=b)
+                {
+                    c = item;
+                }
+                
+            }
+
+            Console.WriteLine("1 - {0}", a);
             Console.WriteLine("2 - {0}", b);
             Console.WriteLine("3 - {0}", c);
             Console.Read();
