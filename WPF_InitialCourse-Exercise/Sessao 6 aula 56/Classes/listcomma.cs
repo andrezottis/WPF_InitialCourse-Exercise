@@ -14,7 +14,16 @@ namespace WPF_InitialCourse_Exercise
             List<int> numberlist = new List<int>();
             string numbers = Console.ReadLine();
             numberlist = numbers.Split(',').Select(int.Parse).ToList();
-
+            if (numberlist.Count < 5)
+            {
+                Console.WriteLine("Please, inser at least 5 numbers: ");
+                numbers = Console.ReadLine();
+                numberlist = numbers.Split(',').Select(int.Parse).ToList();
+            }
+            if (numberlist.Count < 5)
+            {
+                GetValues();
+            }
             int a = numberlist.Min();
             int b = numberlist.Max();
             int c = numberlist.Max();
