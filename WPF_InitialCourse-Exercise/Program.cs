@@ -18,13 +18,20 @@ namespace WPF_InitialCourse_Exercise
             //    "5. The higher number");
 
             //>>>>Sesao 6 aula 56
-            Console.WriteLine("type the number to the exercise: \n" +
-                "1. Reverse name \n" +
-                "2. Facebook Like \n" +
-                "3. Ask 5 numbers \n" +
-                "4. List of Unique Numbers \n" +
-                "5. The higher number");
+            //Console.WriteLine("type the number to the exercise: \n" +
+            //    "1. Reverse name \n" +
+            //    "2. Facebook Like \n" +
+            //    "3. Ask 5 numbers \n" +
+            //    "4. List of Unique Numbers \n" +
+            //    "5. The higher number");
 
+            //>>>>Sessao 8 aula 68
+            Console.WriteLine("type the number to the exercise: \n" +
+                "1. Consecutive Numbers \n" +
+                "2.  \n" +
+                "3.  \n" +
+                "4.  \n" +
+                "5. ");
 
             int value = int.Parse(Console.ReadLine());
             switch (value)
