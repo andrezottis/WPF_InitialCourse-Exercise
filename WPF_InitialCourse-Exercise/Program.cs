@@ -56,7 +56,7 @@ namespace WPF_InitialCourse_Exercise
 
                 //>>>>Sesao 6 aula 56
                 case 1:
-                    NameReverse.reverseName();
+                    ConsecutiveNumbers.VerifyuInputs(); 
                     break;
 
                 case 2:
