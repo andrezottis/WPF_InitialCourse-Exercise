@@ -28,7 +28,7 @@ namespace WPF_InitialCourse_Exercise
             //>>>>Sessao 8 aula 68
             Console.WriteLine("type the number to the exercise: \n" +
                 "1. Consecutive Numbers \n" +
-                "2.  \n" +
+                "2. Verify Duplicates \n" +
                 "3.  \n" +
                 "4.  \n" +
                 "5. ");
@@ -60,7 +60,7 @@ namespace WPF_InitialCourse_Exercise
                     break;
 
                 case 2:
-                    FacebookLike.contarLikes();
+                    VerifyDuplicated.verifyDuplicated();
                     break;
 
                 case 3:

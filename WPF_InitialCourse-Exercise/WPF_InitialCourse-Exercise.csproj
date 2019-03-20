@@ -56,6 +56,7 @@
     <Compile Include="Sessao 6 aula 56\Classes\ListUnique].cs" />
     <Compile Include="Sessao 6 aula 56\Classes\NameReverse.cs" />
     <Compile Include="Sessao 8 aula 68\ConsecutiveNumbers.cs" />
+    <Compile Include="Sessao 8 aula 68\VerifyDuplicated.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
