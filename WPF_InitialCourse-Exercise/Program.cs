@@ -30,7 +30,7 @@ namespace WPF_InitialCourse_Exercise
                 "1. Consecutive Numbers \n" +
                 "2. Verify Duplicates \n" +
                 "3. Check time input \n" +
-                "4.  \n" +
+                "4. Transform to PascalCase \n" +
                 "5. ");
 
             int value = int.Parse(Console.ReadLine());
@@ -68,7 +68,7 @@ namespace WPF_InitialCourse_Exercise
                     break;
 
                 case 4:
-                    ListUnique_.UniqueNumbers();
+                    PascalCase.TransformToPascal();
                     break;
                 case 5:
                     listcomma.GetValues();
