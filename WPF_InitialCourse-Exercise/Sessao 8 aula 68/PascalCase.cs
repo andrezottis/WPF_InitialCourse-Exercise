@@ -37,6 +37,8 @@ namespace WPF_InitialCourse_Exercise
             // Creates a TextInfo based on the "en-US" culture.
             TextInfo myTI = new CultureInfo("en-US", false).TextInfo;
 
+            //References of this method here: https://docs.microsoft.com/pt-br/dotnet/api/system.globalization.textinfo.totitlecase?view=netframework-4.7.2
+            //Very fucking smart
             result = myTI.ToTitleCase(result).Replace(" ", String.Empty);
 
             Console.WriteLine("The Pascal Case text is: " + result);
