@@ -31,7 +31,7 @@ namespace WPF_InitialCourse_Exercise
                 "2. Verify Duplicates \n" +
                 "3. Check time input \n" +
                 "4. Transform to PascalCase \n" +
-                "5. ");
+                "5. Count the number of Vogels ");
 
             int value = int.Parse(Console.ReadLine());
             switch (value)
@@ -71,7 +71,7 @@ namespace WPF_InitialCourse_Exercise
                     PascalCase.TransformToPascal();
                     break;
                 case 5:
-                    listcomma.GetValues();
+                    CountVowels.countAllVowels();
                     break;
                 default:
                     break;

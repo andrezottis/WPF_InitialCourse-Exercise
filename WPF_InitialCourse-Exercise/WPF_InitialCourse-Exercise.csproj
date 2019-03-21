@@ -57,6 +57,7 @@
     <Compile Include="Sessao 6 aula 56\Classes\NameReverse.cs" />
     <Compile Include="Sessao 8 aula 68\CheckTime.cs" />
     <Compile Include="Sessao 8 aula 68\ConsecutiveNumbers.cs" />
+    <Compile Include="Sessao 8 aula 68\CountVowels.cs" />
     <Compile Include="Sessao 8 aula 68\PascalCase.cs" />
     <Compile Include="Sessao 8 aula 68\VerifyDuplicated.cs" />
   </ItemGroup>
